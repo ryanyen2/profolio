@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'Hello, my name is Ryan YEN. I am currently a year-three student studying in Computer Science at City University of HK and NCTU (double degree). And I am also a full-time Software Engineer and Project Manager of Networld Technology Limited HK. ',
+  paragraphTwo: 'I would declare myself as a cross-disciplinary talents who is a full-stack engineer and a businessman. I have been participated and organized several projects such as the development team of MC-hackathon, City university IT team, IEEE-HK Section front-end development, CityU Robotic Team and also a member of IEEE-Eta-Kappa-Nu Club. I have had several experiences on organizing events and workshops with corporations such as IT Sharing with Wizlynx Group, University AWSome day at CityU with AWS Educate. ',
+  paragraphThree: 'On the business side, I have led almost ten teams formed up with various background students to participate business proposal, Hackathon, business case and startup competitions. With these experiences, I am also selected as a member of Business Proposal and Competition Club, which is the first student they have ever had from college of engineering.',
   resume: 'https://www.linkedin.com/in/ryan-yen/', // if no resume, the button will not show up
 };
 
