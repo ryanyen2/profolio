@@ -22,6 +22,7 @@
 ## Authors
 
 - **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
+- **Ryan Yen** - [https://github.com/ryanyen2](https://github.com/ryanyen2)
 
 ## License 📄
 
