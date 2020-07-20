@@ -26,7 +26,7 @@ const Header = () => {
 
   return (
     <section id="hero" className="jumbotron">
-      <Container>
+      <Container className='bg'>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
             {title || 'Hi, my name is'}{' '}
@@ -44,154 +44,138 @@ const Header = () => {
             </span>
           </p>
         </Fade>
-
-        <Fade className='container' left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-          <h2>Tools I Used: </h2>
-          <div className="box">
-            <HeroImg filename={img} className='image'/>
-            {/* <img src={img} alt="React" className="image" /> */}
-            <div className="overlay">
-              <div className="text">React</div>
+        <hr />
+        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+          <div className='hero-icon'>
+            <h2>Tools I Used: </h2>
+            <div className="box">
+              <HeroImg filename={img} className='image'/>
+              {/* <img src={img} alt="React" className="image" /> */}
+              <div className="overlay">
+                <div className="text">React</div>
+              </div>
             </div>
-          </div>
-
-          <div className="box">
-            <HeroImg filename={img1} className='image'/>
-            {/* <img src={img} alt="React" className="image" /> */}
-            <div className="overlay">
-              <div className="text">Vue</div>
+            <div className="box">
+              <HeroImg filename={img1} className='image'/>
+              {/* <img src={img} alt="React" className="image" /> */}
+              <div className="overlay">
+                <div className="text">Vue</div>
+              </div>
             </div>
-          </div>
-
-          <div className="box">
-            <HeroImg filename={img2} className='image'/>
-            {/* <img src={img} alt="React" className="image" /> */}
-            <div className="overlay">
-              <div className="text">Java</div>
+            <div className="box">
+              <HeroImg filename={img2} className='image'/>
+              {/* <img src={img} alt="React" className="image" /> */}
+              <div className="overlay">
+                <div className="text">Java</div>
+              </div>
             </div>
-          </div>
-
-          <div className="box">
-            <HeroImg filename={img3} className='image'/>
-            {/* <img src={img} alt="React" className="image" /> */}
-            <div className="overlay">
-              <div className="text">Python</div>
+            <div className="box">
+              <HeroImg filename={img3} className='image'/>
+              {/* <img src={img} alt="React" className="image" /> */}
+              <div className="overlay">
+                <div className="text">Python</div>
+              </div>
             </div>
-          </div>
-
-          <div className="box">
-            <HeroImg filename={img4} className='image'/>
-            {/* <img src={img} alt="React" className="image" /> */}
-            <div className="overlay">
-              <div className="text">C++</div>
+            <div className="box">
+              <HeroImg filename={img4} className='image'/>
+              {/* <img src={img} alt="React" className="image" /> */}
+              <div className="overlay">
+                <div className="text">C++</div>
+              </div>
             </div>
-          </div>
-
-          <div className="box">
-            <HeroImg filename={img5} className='image'/>
-            {/* <img src={img} alt="React" className="image" /> */}
-            <div className="overlay">
-              <div className="text">JavaScript</div>
+            <div className="box">
+              <HeroImg filename={img5} className='image'/>
+              {/* <img src={img} alt="React" className="image" /> */}
+              <div className="overlay">
+                <div className="text">JavaScript</div>
+              </div>
             </div>
-          </div>
-
-          <div className="box">
-            <HeroImg filename={img6} className='image'/>
-            {/* <img src={img} alt="React" className="image" /> */}
-            <div className="overlay">
-              <div className="text">CSS</div>
+            <div className="box">
+              <HeroImg filename={img6} className='image'/>
+              {/* <img src={img} alt="React" className="image" /> */}
+              <div className="overlay">
+                <div className="text">CSS</div>
+              </div>
             </div>
-          </div>
-
-          <div className="box">
-            <HeroImg filename={img7} className='image'/>
-            {/* <img src={img} alt="React" className="image" /> */}
-            <div className="overlay">
-              <div className="text">HTML</div>
+            <div className="box">
+              <HeroImg filename={img7} className='image'/>
+              {/* <img src={img} alt="React" className="image" /> */}
+              <div className="overlay">
+                <div className="text">HTML</div>
+              </div>
             </div>
-          </div>
-
-          <div className="box">
-            <HeroImg filename={img8} className='image'/>
-            {/* <img src={img} alt="React" className="image" /> */}
-            <div className="overlay">
-              <div className="text">Kotlin</div>
+            <div className="box">
+              <HeroImg filename={img8} className='image'/>
+              {/* <img src={img} alt="React" className="image" /> */}
+              <div className="overlay">
+                <div className="text">Kotlin</div>
+              </div>
             </div>
-          </div>
-
-          <div className="box">
-            <HeroImg filename={img9} className='image'/>
-            {/* <img src={img} alt="React" className="image" /> */}
-            <div className="overlay">
-              <div className="text">Flutter</div>
+            <div className="box">
+              <HeroImg filename={img9} className='image'/>
+              {/* <img src={img} alt="React" className="image" /> */}
+              <div className="overlay">
+                <div className="text">Flutter</div>
+              </div>
             </div>
-          </div>
-
-          <div className="box">
-            <HeroImg filename={img10} className='image'/>
-            {/* <img src={img} alt="React" className="image" /> */}
-            <div className="overlay">
-              <div className="text">NodeJS</div>
+            <div className="box">
+              <HeroImg filename={img10} className='image'/>
+              {/* <img src={img} alt="React" className="image" /> */}
+              <div className="overlay">
+                <div className="text">NodeJS</div>
+              </div>
             </div>
-          </div>
-
-          <div className="box">
-            <HeroImg filename={img11} className='image'/>
-            {/* <img src={img} alt="React" className="image" /> */}
-            <div className="overlay">
-              <div className="text">AWS</div>
+            <div className="box">
+              <HeroImg filename={img11} className='image'/>
+              {/* <img src={img} alt="React" className="image" /> */}
+              <div className="overlay">
+                <div className="text">AWS</div>
+              </div>
             </div>
-          </div>
-
-          <div className="box">
-            <HeroImg filename={img12} className='image'/>
-            {/* <img src={img} alt="React" className="image" /> */}
-            <div className="overlay">
-              <div className="text">Docker</div>
+            <div className="box">
+              <HeroImg filename={img12} className='image'/>
+              {/* <img src={img} alt="React" className="image" /> */}
+              <div className="overlay">
+                <div className="text">Docker</div>
+              </div>
             </div>
-          </div>
-
-          <div className="box">
-            <HeroImg filename={img13} className='image'/>
-            {/* <img src={img} alt="React" className="image" /> */}
-            <div className="overlay">
-              <div className="text">MySQL</div>
+            <div className="box">
+              <HeroImg filename={img13} className='image'/>
+              {/* <img src={img} alt="React" className="image" /> */}
+              <div className="overlay">
+                <div className="text">MySQL</div>
+              </div>
             </div>
-          </div>
-
-          <div className="box">
-            <HeroImg filename={img14} className='image'/>
-            {/* <img src={img} alt="React" className="image" /> */}
-            <div className="overlay">
-              <div className="text">MongoDB</div>
+            <div className="box">
+              <HeroImg filename={img14} className='image'/>
+              {/* <img src={img} alt="React" className="image" /> */}
+              <div className="overlay">
+                <div className="text">MongoDB</div>
+              </div>
             </div>
-          </div>
-
-          <div className="box">
-            <HeroImg filename={img15} className='image'/>
-            {/* <img src={img} alt="React" className="image" /> */}
-            <div className="overlay">
-              <div className="text">GitHub</div>
+            <div className="box">
+              <HeroImg filename={img15} className='image'/>
+              {/* <img src={img} alt="React" className="image" /> */}
+              <div className="overlay">
+                <div className="text">GitHub</div>
+              </div>
             </div>
-          </div>
-
-          <div className="box">
-            <HeroImg filename={img16} className='image'/>
-            {/* <img src={img} alt="React" className="image" /> */}
-            <div className="overlay">
-              <div className="text">BitBucket</div>
+            <div className="box">
+              <HeroImg filename={img16} className='image'/>
+              {/* <img src={img} alt="React" className="image" /> */}
+              <div className="overlay">
+                <div className="text">BitBucket</div>
+              </div>
             </div>
-          </div>
-
-          <div className="box">
-            <HeroImg filename={img17} className='image'/>
-            {/* <img src={img} alt="React" className="image" /> */}
-            <div className="overlay">
-              <div className="text">Bootstrap</div>
+            <div className="box">
+              <HeroImg filename={img17} className='image'/>
+              {/* <img src={img} alt="React" className="image" /> */}
+              <div className="overlay">
+                <div className="text">Bootstrap</div>
+              </div>
             </div>
           </div>
         </Fade>
-
       </Container>
     </section>
   );
