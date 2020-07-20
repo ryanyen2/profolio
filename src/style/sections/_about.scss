@@ -48,7 +48,7 @@
       }
 
       &-text {
-        text-align: left;
+        text-align: justify;
 
         @include respond(tab-port) {
           font-size: 1.5rem;
@@ -60,11 +60,13 @@
         }
 
         &--important {
-          background: darken($secondary-color, 1%);
+          background: $primary-color;
+          color: $white-color;
           display: inline-block;
+          border-radius: 1rem;
           font-style: italic;
-          padding: 0 0.3rem;
-          margin: 0.3rem 0;
+          padding: 1em 2em;
+          margin: 0.8rem 0;
           line-height: 1.6;
 
           @include respond(phone) {

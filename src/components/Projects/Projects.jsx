@@ -110,6 +110,58 @@ const Projects = () => {
               </Row>
             );
           })}
+          
+          {/* Team */}
+          <Title title="My Teams" />
+          <div>
+            <Row>
+              <Col lg={2} sm={12}>
+                <div className='small-box btn btn-warning'>
+                  <h2>NetWorld Tech Ltd.</h2>
+                </div>
+              </Col>
+              <Col lg={2} sm={12}>
+                <div className='btn btn-warning small-box'>
+                  <h2>IEEE-Eta-kappa-Nu Club</h2>
+                </div>
+              </Col>
+              <Col lg={2} sm={12}>
+                <div className='btn btn-warning small-box'>
+                  <h2>IEEE-HKN Web TaskForce</h2>
+                </div>
+              </Col>
+              <Col lg={2} sm={12}>
+                <div className='btn btn-warning small-box'>
+                  <h2>CityU IT Team</h2>
+                </div>
+              </Col>
+              <Col lg={2} sm={12}>
+                <div className='btn btn-warning small-box'>
+                  <h2>MC-Hackathon Development Team</h2>
+                </div>
+              </Col>
+              <Col lg={2} sm={12}>
+                <div className='btn btn-warning small-box'>
+                  <h2>CityU Robotic Team</h2>
+                </div>
+              </Col>
+              <Col lg={2} sm={12}>
+                <div className='btn btn-warning small-box'>
+                  <h2>Business Proposal and Competition Club</h2>
+                </div>
+              </Col>
+              <Col lg={2} sm={12}>
+                <div className='btn btn-warning small-box'>
+                  <h2>Athletic Team Aquatic Team</h2>
+                </div>
+              </Col>
+              <Col lg={2} sm={12}>
+                <div className='btn btn-warning small-box'>
+                  <h2>R6 Helper Group</h2>
+                </div>
+              </Col>
+            </Row>
+          </div>
         </div>
       </Container>
     </section>

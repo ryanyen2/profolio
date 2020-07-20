@@ -9,6 +9,20 @@
     padding-top: 5rem;
   }
 
+  .small-box {
+    padding: 2em;
+    border-radius: 1rem;
+    background-color: $primary-color;
+    width: 100%;
+    height: 90%;
+  }
+  
+  .small-box h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: $white-color;
+  }
+
   .project-wrapper {
     margin-bottom: 15rem;
 

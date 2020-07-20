@@ -10,17 +10,36 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: 'Nice to meet you, I am ',
-  name: 'Ryan',
-  subtitle: 'A Software Engineer',
+  name: 'Ryan Yen',
+  subtitle: 'A Software Engineer + Business Man',
   cta: 'See More',
+  img: 'react.png',
+  img1: 'vue.png',
+  img2: 'java.png',
+  img3: 'python.png',
+  img4: 'c++.png',
+  img5: 'javascript.png',
+  img6: 'css.png',
+  img7: 'html.png',
+  img8: 'kotlin.png',
+  img9: 'flutter.png',
+  img10: 'nodejs.png',
+  img11: 'aws.png',
+  img12: 'docker.png',
+  img13: 'mysql.png',
+  img14: 'mongodb.png',
+  img15: 'github.png',
+  img16: 'bitbucket.png',
+  img17: 'bootstrap.png',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Hello, my name is Ryan YEN. I am currently a year-three student studying in Computer Science at City University of HK and NCTU (double degree). And I am also a full-time Software Engineer and Project Manager of Networld Technology Limited HK. ',
-  paragraphTwo: 'I would declare myself as a cross-disciplinary talents who is a full-stack engineer and a businessman. I have been participated and organized several projects such as the development team of MC-hackathon, City university IT team, IEEE-HK Section front-end development, CityU Robotic Team and also a member of IEEE-Eta-Kappa-Nu Club. I have had several experiences on organizing events and workshops with corporations such as IT Sharing with Wizlynx Group, University AWSome day at CityU with AWS Educate. ',
-  paragraphThree: 'On the business side, I have led almost ten teams formed up with various background students to participate business proposal, Hackathon, business case and startup competitions. With these experiences, I am also selected as a member of Business Proposal and Competition Club, which is the first student they have ever had from college of engineering.',
+  paragraphOne: 'Hello, my name is Ryan YEN. Year-Three/ Taiwanese/ Computer Science/ City University of HK + NCTU/ full-time Software Engineer of Networld Technology Limited HK. ',
+  paragraphTwo: 'I am a [cross-disciplinary talents <= full-stack engineer + businessman]. I have been participated and organized several projects such as the development team of MC-hackathon, City university IT team, IEEE-HK Section front-end development, CityU Robotic Team and also a member of IEEE-Eta-Kappa-Nu Club, etc.',
+  paragraphThree: 'On the business side, I have led almost ten teams to participate Hackathon, business case and startup competitions. With these experiences, I am also selected as a member of Business Proposal and Competition Club',
+  paragraphFour: 'The following content are some of the projects I have done before. If you are interested to work with me, please contact me by the email link at below~',
   resume: 'https://www.linkedin.com/in/ryan-yen/', // if no resume, the button will not show up
 };
 

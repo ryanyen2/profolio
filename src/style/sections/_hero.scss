@@ -17,14 +17,21 @@
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
 
-  /* background: url("/src/assets/[your-image].png");
+  //background: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg");
+  
   background-position: center;
-  background-size: cover; */
+  background-size: cover;
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
   }
 
+  h2 {
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 2em 0 0em .3em;
+  }
   .hero-title {
     font-size: 5.6rem;
     font-weight: 700;
@@ -62,4 +69,45 @@
       }
     }
   }
+
+  .box {
+    position: relative;
+    display: block;
+    margin: 2em 10px 0px 10px;
+    width: 8em;
+    float: left;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    background-color: $dark-blue-text;
+  }
+  
+  .box:hover .overlay {
+    width:100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
 }

@@ -33,6 +33,7 @@ const Footer = () => {
             })}
         </div>
         <hr />
+        <p> All rights reserved to @ryanyen2</p>
       </Container>
     </footer>
   );
